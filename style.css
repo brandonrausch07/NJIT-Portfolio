@@ -33,8 +33,8 @@
 
 .typewriter::after {
     text-align: left;
-    padding-left: 200px;
-    padding-right: 180px;
+    padding-left: 250px;
+    padding-right: 200px;
      content: '|';
      position: absolute;
      right: 0;
@@ -42,7 +42,7 @@
      background-color: white;
     width: 80%;
     animation: typing 2s steps(20) alternate infinite,
-                      line 1s infinite;
+                      line 2s infinite;
 }
 
 
@@ -54,7 +54,85 @@
 
 
 @keyframes line{
-    50%{
+    80%{
         color: transparent;
     }
+}
+
+
+.pro {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.me {
+    border: 10px solid #555;
+    border-radius: 10px;
+    
+    
+     
+}
+
+
+.prog {
+   font-size: 24px;
+}
+
+
+.pirolft {
+    color: #ffff;
+    font-size: 1.25vw;
+    font-family: "Nunito Sans";
+    padding-left: 6vw;
+  }
+  .footp {
+    background-color: #141414;
+    color: #a19f9f;
+    font-family: "Nunito Sans";
+    font-size: 0.8vw;
+    
+  }
+  .foot{
+    padding-top:5vw;
+    background-color: #141414;
+    color: #a19f9f;
+    text-align: left;
+    
+    padding-bottom: 5vw;
+  }
+
+.marg {
+    margin-top: 200px;
+}
+ 
+.typewriter2::after {
+    text-align: left;
+    padding-left: 250px;
+    padding-right: 200px;
+     content: '|';
+     position: absolute;
+     right: 0;
+     color: black;
+     background-color: #0080ff;
+    width: 80%;
+    animation: typing 2.5s steps(20) alternate infinite,
+                      line 2s infinite;
+}
+
+
+@keyframes typing{
+    to{
+        width: 30%;
+    }
+}
+
+
+@keyframes line{
+    80%{
+        color: transparent;
+    }
+}
+
+.T {
+    border: 10px solid #555;
 }
