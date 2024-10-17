@@ -102,16 +102,18 @@
   }
 
 .marg {
-    margin-top: 200px;
+    margin-top: 400px;
 }
 .marg2 {
-    margin-top: 200px;
+    margin-top: 400px;
 }
 
 .marg3 {
+    margin-top: 200px;
+}
+.mar {
     margin-top: 100px;
 }
-
 .typewriter2::after {
     text-align: left;
     padding-left: 250px;
@@ -147,4 +149,10 @@
 .aboutus1 {
     text-align: center;
     font-size: 25px
+}
+
+.margi {
+    margin-bottom: 0px;
+    border: 10px solid #555;
+    border-left: ;
 }
